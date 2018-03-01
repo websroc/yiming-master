@@ -5,13 +5,13 @@
     "pages/personal/personal",
     "pages/personalcenter/personalcenter",
     "pages/record/record",
-    "pages/suggest/suggest",
+    "pages/tmall/tmall",
     "pages/menber/menber",
     "pages/wallet/wallet",
     "pages/blacktea/blacktea",
     "pages/teatool/teatool",
     "pages/detail/detail",
-    "pages/chargeMoney/chargeMoney",
+    "pages/tcar/tcar",
     "pages/redtea/redtea",
     "pages/greentea/greentea",
     "pages/payment/payment",
@@ -40,13 +40,13 @@
       {
         "selectedIconPath": "images/1221.png",
         "iconPath": "images/122.png",
-        "pagePath": "pages/suggest/suggest",
+        "pagePath": "pages/tmall/tmall",
         "text": "商城"
       },
       {
         "selectedIconPath": "images/1231.png",
         "iconPath": "images/123.png",
-        "pagePath": "pages/chargeMoney/chargeMoney",
+        "pagePath": "pages/tcar/tcar",
         "text": "购物车"
       },
       {
