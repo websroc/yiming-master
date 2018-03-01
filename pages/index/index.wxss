@@ -1,0 +1,138 @@
+page {
+  background: #f2f2f2;
+  font-family: '微软雅黑';
+}
+
+swiper {
+  width: 750rpx;
+  height: 360rpx;
+  margin: 0 auto;
+  margin-top: 0rpx;
+  background: #fff;
+}
+
+.swiper-item {
+  width: 100%;
+  height: 100%;
+}
+
+.slide-image {
+  width: 750rpx;
+  height: 360rpx;
+}
+
+.flex-wrp {
+  display: flex;
+  height: 110rpx;
+  font-size: 28rpx;
+}
+.flex-item {
+  flex: 1;
+  text-align: left;
+  color: #353535;
+  line-height: 50rpx;
+  margin-left: 20rpx;
+}
+.flex-item text {
+  display: block;
+  color: #888;line-height: 20rpx;
+}
+.line {
+  height: 70%;
+  margin-top: 20rpx;
+  width: 1px;
+  background-color: #ccc;
+  
+}
+.personal_bottom_right {
+  position: absolute;
+  top:24rpx;
+  right:20rpx;
+  z-index: 22;
+}
+.section_flexs {
+display: flex;
+padding: 15rpx 0;
+margin: 15rpx 0;
+}
+.section_gap {
+  flex: 5;
+}
+.section__ctn {
+  text-align: center
+}
+.section__title {
+  text-align: center;
+  font-size: 26rpx;
+  color: #353535;
+}
+.new_section {
+  background: #fff;
+}
+.banner_img {
+  width: 100%;
+  height: 110rpx;
+  text-align: center;
+  padding-top: 35rpx;
+}
+.tealis {
+  display: flex;
+  padding: 0 30rpx;
+  overflow: hidden;
+  
+}
+.tealist {
+ flex: 1;
+ width: 334rpx;
+ margin-right: 20rpx;
+ height:350rpx;
+ border: 1rpx solid #e2e2e2;
+}
+.section__goodsname {
+  font-size: 24rpx;
+  color: #363636;
+  padding:  5rpx 10rpx;
+  text-align: left;
+}
+.section__price {
+  float: left;
+  font-size: 26rpx;
+  margin: 10rpx 2rpx;
+  color: #e64340;
+}
+.section__sales {
+  color: #888888;
+  float: right;
+  font-size: 26rpx;
+  margin: 10rpx 10rpx;
+}
+.vip_section {
+  background: #fff;
+  padding: 20rpx 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.vip_tq text {
+  font-size: 26rpx;
+  margin-left: 10rpx;
+  color: #000;
+}
+.vip_intro {
+  padding-left: 20rpx;
+}
+.vip_title {
+  font-size: 26rpx;
+  color: #353535;
+}
+.jifentext {
+  font-size: 24rpx;
+  color: #353535;
+  width:114rpx;
+  height:50rpx;
+  line-height: 50rpx;
+  padding:0;
+  background: #fff;
+}
+.jifentext::after{
+  border: 1rpx solid #d39400;
+}

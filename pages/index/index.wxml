@@ -1,0 +1,102 @@
+<!--index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="section">
+  <view class="flex-wrp" style="flex-direction:row;background:#fff;">
+  <navigator url="../record/record" style='width:50%; margin:16rpx 0;position: relative;'>
+    <view class="flex-item" style="margin-left:30rpx;">
+      茶馆简介
+      <text>开放时间、茶社介绍</text>
+    </view>
+   <view class="personal_bottom_right" style="color:#353535; font-size:26rpx;">></view> 
+    </navigator>
+    <view class='line'></view>
+    <navigator url="../record/record" style='width:50%;'>
+    <view class="flex-item" style='line-height:110rpx;'>
+    <image style="width:40rpx;height:40rpx;vertical-align:middle;" src='../../images/location.png'></image>
+    陕西省西安市科技六路
+    </view>
+    </navigator>
+  </view>
+</view>
+
+<view class="section section_flexs" style="background-image: url('../../images/02.jpg')">
+     <view wx:for="{{array}}" wx:key="item" bindtap='linkOne'  class="section section_gap " data-id="{{item.name}}" >
+      <view class="section__ctn" >
+        <image style="width: 95rpx; height:95rpx;" mode="{{item.mode}}" src="{{item.src}}"></image>
+      </view>
+      <view class="section__title">{{item.text}}</view>
+      </view>
+</view>
+
+<view class='section new_section' style='margin-bottom:20rpx;'>
+  <view class='banner_img'>
+    <image src='../../images/banner.png' style='width:370rpx;height:70rpx;'></image>
+  </view>
+ <view class='tealis '>
+   <view class='tealist' wx:for="{{arraylis}}" wx:key="item">
+    <view class='goodspic'>
+    <image style="width: 334rpx; height:210rpx;" mode="{{item.mode}}" src="{{item.src}}"></image>
+    </view>
+    <view class="section__goodsname">{{item.goodsname}}</view>
+    <view class="section__price">{{item.price}}</view>
+    <view class="section__sales">{{item.sales}}</view>
+  </view>
+ </view>
+ <view class='tealis' style='margin-top:20rpx; padding-bottom:30rpx;'>
+   <view class='tealist' wx:for="{{arrylise}}" wx:key="item">
+    <view class='goodspic'>
+    <image style="width: 334rpx; height:210rpx;" mode="{{item.mode}}" src="{{item.src}}"></image>
+    </view>
+    <view class="section__goodsname">{{item.goodsname}}</view>
+    <view class="section__price">{{item.price}}</view>
+    <view class="section__sales">{{item.sales}}</view>
+  </view>
+ </view>
+</view>
+
+
+<view class='vip_section'>
+<view class='vip_tq'>
+  <image src='../../images/vip1.jpg' style='width:48rpx;height:46rpx; vertical-align:middle;'></image>
+  <text>会员特权</text>
+</view>
+ <view class="section section_flexs" style="background:#fff;">
+     <view class="section section_gap" wx:for="{{arrayVip}}" wx:key="item">
+      <view class="section__ctn" >
+        <image style="width: 92rpx; height:68rpx;" mode="{{item.mode}}" src="{{item.src}}"></image>
+      </view>
+      <view class="section__title" style='color:#b2b2b2;'>{{item.text}}</view>
+      </view>
+</view>
+<view class='vip_intro' wx:for="{{arrayVips}}" wx:key="item">
+ <view class="vip_title">{{item.title}}</view>
+ <view class="vip_title">{{item.oneti}}</view>
+ <view class="vip_title">{{item.twoti}}</view>
+ <view class="vip_title">{{item.threeti}}</view>
+ <view class="vip_title">{{item.fourti}}</view>
+</view>
+<view class='vip_tq'>
+  <image src='../../images/vip2.jpg' style='width:48rpx;height:46rpx; vertical-align:middle;'></image>
+  <text>积分、充值送礼等促销活动</text>
+</view>
+<view class="section section_flexs" style="background:#fff;">
+     <view class="section section_gap" wx:for="{{arrayVip}}" wx:key="item">
+      <view class="section__ctn" >
+        <image style="width: 92rpx; height:68rpx;" mode="{{item.mode}}" src="{{item.src}}"></image>
+      </view>
+      <button class='jifentext' bindtap="setLoading">{{item.text}}</button>
+      </view>
+</view>
+</view>
+
+
+
+
+

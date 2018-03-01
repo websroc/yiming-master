@@ -1,0 +1,60 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/submit/submit",
+    "pages/personal/personal",
+    "pages/personalcenter/personalcenter",
+    "pages/record/record",
+    "pages/suggest/suggest",
+    "pages/menber/menber",
+    "pages/wallet/wallet",
+    "pages/blacktea/blacktea",
+    "pages/teatool/teatool",
+    "pages/detail/detail",
+    "pages/chargeMoney/chargeMoney",
+    "pages/redtea/redtea",
+    "pages/greentea/greentea",
+    "pages/payment/payment",
+    "pages/mycar/mycar",
+    "pages/mycar/addcar",
+    "pages/logs/logs",
+    "pages/bluetea/bluetea"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "平利一茗",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"#353535",
+    "selectedColor": "#c3970f",
+    "borderStyle": "#ddd",
+    "list": [
+      {
+        "selectedIconPath": "images/1211.png",
+        "iconPath": "images/121.png",
+        "pagePath": "pages/index/index",        
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/1221.png",
+        "iconPath": "images/122.png",
+        "pagePath": "pages/suggest/suggest",
+        "text": "商城"
+      },
+      {
+        "selectedIconPath": "images/1231.png",
+        "iconPath": "images/123.png",
+        "pagePath": "pages/chargeMoney/chargeMoney",
+        "text": "购物车"
+      },
+      {
+        "selectedIconPath": "images/1241.png",
+        "iconPath": "images/124.png",
+        "pagePath": "pages/personalcenter/personalcenter",
+        "text": "我的"
+      }
+    ]
+  }
+}
