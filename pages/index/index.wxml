@@ -1,4 +1,5 @@
 <!--index.wxml-->
+<!-- 轮播图 -->
 <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
   <block wx:for="{{imgUrls}}">
     <swiper-item>
@@ -6,7 +7,7 @@
     </swiper-item>
   </block>
 </swiper>
-
+<!--介绍&定位  -->
 <view class="section">
   <view class="flex-wrp" style="flex-direction:row;background:#fff;">
   <navigator url="../record/record" style='width:50%; margin:16rpx 0;position: relative;'>
@@ -34,7 +35,7 @@
       <view class="section__title">{{item.text}}</view>
       </view>
 </view>
-
+<!--新品推荐  -->
 <view class='section new_section' style='margin-bottom:20rpx;'>
   <view class='banner_img'>
     <image src='../../images/banner.png' style='width:370rpx;height:70rpx;'></image>
@@ -49,19 +50,9 @@
     <view class="section__sales">{{item.sales}}</view>
   </view>
  </view>
- <view class='tealis' style='margin-top:20rpx; padding-bottom:30rpx;'>
-   <view class='tealist' wx:for="{{arrylise}}" wx:key="item">
-    <view class='goodspic'>
-    <image style="width: 334rpx; height:210rpx;" mode="{{item.mode}}" src="{{item.src}}"></image>
-    </view>
-    <view class="section__goodsname">{{item.goodsname}}</view>
-    <view class="section__price">{{item.price}}</view>
-    <view class="section__sales">{{item.sales}}</view>
-  </view>
- </view>
 </view>
 
-
+<!--会员  -->
 <view class='vip_section'>
 <view class='vip_tq'>
   <image src='../../images/vip1.jpg' style='width:48rpx;height:46rpx; vertical-align:middle;'></image>

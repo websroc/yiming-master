@@ -77,14 +77,16 @@ margin: 15rpx 0;
 }
 .tealis {
   display: flex;
-  padding: 0 30rpx;
+  padding: 0 25rpx;
   overflow: hidden;
+  flex-wrap: wrap;
+ padding-bottom: 20rpx;
   
 }
 .tealist {
  flex: 1;
- width: 334rpx;
- margin-right: 20rpx;
+ width: 332rpx;
+ margin: 15rpx 15rpx 0 0;
  height:350rpx;
  border: 1rpx solid #e2e2e2;
 }

@@ -61,8 +61,6 @@ Page({
          sales: '月销0件',
          src: '../../images/tj2.jpg'
        },
-     ],
-     arrylise:[
        {
          mode: 'scaleToFill',
          goodsname: '安康名茶 当年新茶 富硒红茶 陕西特产 一茗红150g',
